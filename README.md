@@ -9,10 +9,24 @@
 
 _Named Entity Recognition_ merupakan salah satu penerapan _Sequence Labeling_ pada _Natural Language Processing_. _Named Entity Recognition_ ini digunakan untuk mengekstraksi infotmasi seperti nama orang, nama organisasi maupun nama lokasi/tempat. 
 
-Pada penelitian kali ini, tim Aesthetics akan membuat suatu model NER yang dapat mengekstraksi informasi berupa nama orang, nama organisasi maupun nama lokasi/tempat dengan menerima inputan berupa kalimat atau teks berbahasa Indonesia.
+Pada penelitian kali ini, tim Aesthetics akan membuat suatu model _NER_ yang dapat mengekstraksi informasi berupa nama orang, nama organisasi maupun nama lokasi/tempat dengan menerima inputan berupa kalimat atau teks berbahasa Indonesia.
 
 Pada tahap pengerjaannya, tim Aesthetics menggunakan metode/pendekatan berikut untuk setiap tahapnya:
-1. Tahap pemrosesannya => Menjalankan dataset
-2. Metode untuk ekstraksi fiturnya => 
-3. Model klasifikasi berdasarkan fitur yang sudah di ekstrak =>
-4. Metode dan metrik untuk mengevaluasi model =>
+**1. Dataset**
+    Dataset yang digunakan adalah dataset SINGGALANG.tsv, yang dapat diperoleh melalui https://github.com/ialfina/ner-dataset-modified-dee/tree/master/singgalang ![image](https://user-images.githubusercontent.com/72435369/142381403-9e51873a-0dbb-424c-9345-420b8793b135.png)
+    
+**2. Text Preprocessing**
+_a. Tokenisasi_
+Tokenisasi adalah pemecahan kalimat menjadi kata-kata yang disebut dengan token
+
+_b. Stopwords Removal_
+Stopwords removal adalah penghapusan kata kata yang termasuk kedalam _stop list_. 
+
+**2. Feature Extraction****
+
+
+**3. Model klasifikasi berdasarkan fitur yang sudah di ekstrak**
+
+
+**4. Metode dan metrik untuk mengevaluasi model =>**
+
