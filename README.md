@@ -18,11 +18,9 @@ Pada tahap pengerjaannya, tim Aesthetics menggunakan metode/pendekatan berikut u
     
 **2. Text Preprocessing** 
 
-_a. Tokenisasi_
-Tokenisasi adalah pemecahan kalimat menjadi kata-kata yang disebut dengan token.
+_a. Tokenisasi_ : pemecahan kalimat menjadi kata-kata yang disebut dengan token.
 
-_b. Stopwords Removal_
-Stopwords removal adalah penghapusan kata kata yang termasuk kedalam _stop list_. 
+_b. Stopwords Removal_ : penghapusan kata kata yang termasuk kedalam _stop list_. 
 
 
 **2. Feature Extraction****
