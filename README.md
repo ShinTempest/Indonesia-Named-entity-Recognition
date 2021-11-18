@@ -13,9 +13,9 @@ Pada penelitian kali ini, tim Aesthetics akan membuat suatu model _NER_ yang dap
 
 Pada tahap pengerjaannya, tim Aesthetics menggunakan metode/pendekatan berikut untuk setiap tahapnya:
 **1. Dataset**
-    Dataset yang digunakan adalah dataset SINGGALANG.tsv, yang dapat diperoleh melalui https://github.com/ialfina/ner-dataset-modified-dee/tree/master/singgalang ![image](https://user-images.githubusercontent.com/72435369/142381403-9e51873a-0dbb-424c-9345-420b8793b135.png)
+    Dataset yang digunakan adalah dataset SINGGALANG.tsv, yang dapat diperoleh melalui https://github.com/ialfina/ner-dataset-modified-dee/tree/master/singgalang
     
-**2. Text Preprocessing**
+**2. Text Preprocessing** 
 _a. Tokenisasi_
 Tokenisasi adalah pemecahan kalimat menjadi kata-kata yang disebut dengan token
 
