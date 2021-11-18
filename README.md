@@ -12,6 +12,7 @@ _Named Entity Recognition_ merupakan salah satu penerapan _Sequence Labeling_ pa
 Pada penelitian kali ini, tim Aesthetics akan membuat suatu model _NER_ yang dapat mengekstraksi informasi berupa nama orang, nama organisasi maupun nama lokasi/tempat dengan menerima inputan berupa kalimat atau teks berbahasa Indonesia.
 
 Pada tahap pengerjaannya, tim Aesthetics menggunakan metode/pendekatan berikut untuk setiap tahapnya:
+
 **1. Dataset**
     Dataset yang digunakan adalah dataset SINGGALANG.tsv, yang dapat diperoleh melalui https://github.com/ialfina/ner-dataset-modified-dee/tree/master/singgalang
     
@@ -21,6 +22,7 @@ Tokenisasi adalah pemecahan kalimat menjadi kata-kata yang disebut dengan token.
 
 _b. Stopwords Removal_
 Stopwords removal adalah penghapusan kata kata yang termasuk kedalam _stop list_. 
+
 
 **2. Feature Extraction****
 
