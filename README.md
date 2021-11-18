@@ -17,6 +17,7 @@ Pada tahap pengerjaannya, tim Aesthetics menggunakan metode/pendekatan berikut u
     Dataset yang digunakan adalah dataset SINGGALANG.tsv, yang dapat diperoleh melalui https://github.com/ialfina/ner-dataset-modified-dee/tree/master/singgalang
     
 **2. Text Preprocessing** 
+
 _a. Tokenisasi_
 Tokenisasi adalah pemecahan kalimat menjadi kata-kata yang disebut dengan token.
 
