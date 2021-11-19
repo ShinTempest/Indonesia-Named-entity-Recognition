@@ -18,9 +18,9 @@ Pada tahap pengerjaannya, tim Aesthetics menggunakan metode/pendekatan berikut u
     
 **2. Text Preprocessing** 
 
-_a. Tokenisasi_ : pemecahan kalimat menjadi kata-kata yang disebut dengan token.
+_a. Tokenisasi_ : pemecahan kalimat menjadi kata-kata yang disebut dengan token. Tokenisasi dilakukan agar setiap kata dipisahkan menjadi data independen. Karena model _Named Entity Recognition_ yang dibangun akan memberikan label pada setiap kata, maka tokenisasi akan sangat mempermudah proses tersebut. Jika semua kata sudah terpisah, maka model dapat memberikan label pada setiap kata.
 
-_b. Stopwords Removal_ : penghapusan kata kata yang termasuk kedalam _stop list_. 
+_b. Stopwords Removal_ : penghapusan kata kata yang termasuk kedalam _stop list_. Kata-kata yang termasuk kedalam _stop list_ adalah _the, a, an, so, as, of_, dll. Penggunaan _stopwords_ sering kali tidak memberikan pengaruh yang besar terhadap makna suatu kata. Karena model yang dibangun akan memberikan label pada setiap kata, maka _stopwords removal_ akan berguna, karena _stopwords_ sering kali tidak memiliki makna apabila digunakan tidak bersamaan dengan kata-kata lain. Selain itu, model yang dibangun tidaklah mendeteksi makna kata, sehingga _stopwords removal_ tidak akan mempengaruhi proses pemberian label.
 
 
 **2. Feature Extraction****
